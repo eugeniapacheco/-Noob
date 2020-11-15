@@ -1,0 +1,14 @@
+using System;
+namespace Algoritmia
+{
+    public class ExerciciosAlgoritmia
+    {
+
+
+        public void LetTheGamesBegin()
+        {
+        Console.WriteLine("Game Started");
+        Console.WriteLine("Game Playing");
+        Console.WriteLine("Game Over");
+        }
+        
