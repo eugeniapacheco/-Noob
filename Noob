@@ -1,0 +1,11 @@
+namespace Algoritmia
+{
+    public class ExerciciosAlgoritmia
+    {
+
+
+        public void Noob
+        {
+        string name = "#Fiinz";
+        Console.WriteLine("You’re such a Noob "+ name +" !\n It's always good to have newbies around here!);
+        }
