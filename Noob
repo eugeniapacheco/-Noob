@@ -3,7 +3,7 @@ namespace Algoritmia
     public class ExerciciosAlgoritmia
     {
     
-     public void LetTheGamesBegin()   
+   public void LetTheGamesBegin()   
      {
      
      Console.WriteLine("Game Started");
@@ -11,21 +11,24 @@ namespace Algoritmia
      Console.WriteLine("Game Over");
      }
      
-     public void Noob()
-        {
-        
-        string name = "#Fiinz";
-        Console.WriteLine("You’re such a Noob "+ name +" !\n It's always good to have newbies around here!)
-        }
-        
-      public void EasyPeasy()
+   
+    public void Noob()
+     {
+     
+     string name = "#Fiinz";
+     Console.WriteLine("You’re such a Noob "+ name +" !\n It's always good to have newbies around here!)
+     }
+       
+       
+     public void EasyPeasy()
         {
         
         int lives = 3;
         Console.WriteLine("You have " + lives +" lives, use them wisely");
-        {
+        }
         
-      public void ForAzeroth()
+        
+     public void ForAzeroth()
           {
           
          string nickname: Itachi;
@@ -40,34 +43,134 @@ namespace Algoritmia
          Console.WriteLine("Race:" +race);
          Console.WriteLine("Gender:" +gender);
          Console.WriteLine("Faction:" +faction);
-         Console.WriteLine("Class:" +Hunter);
+         Console.WriteLine("Class:" +class);
          }
+         
          
       public void () FrostMourne
       {
          String nickname: Blue;
-         String rarity = Common;
+         String rarity = Rare;
          int damage = 500;
-         String description = Bright;
-         String target class = Hunter;
-         Strring class = Hunter;
+         String description = Incredibly bright protected by flames
+         String targetclass = Hunter;
+         boolean twohand = false;
          
-         Console.WriteLine("Nickname:" +nickname);
-         Console.writeLine("Level:" +level);
-         Console.WriteLine("Race:" +race);
-         Console.WriteLine("Gender:" +gender);
-         Console.WriteLine("Faction:" +faction);
-         Console.WriteLine("Class:" +Hunter);
+         Console.WriteLine("Weapon name:" +nickname);
+         Console.writeLine("Weapon Rarity:" +rarity);
+         Console.WriteLine("Weapon Damage:" +damage);
+         Console.WriteLine("Weapon Description:" +description);
+         Console.WriteLine("Weapon Target class:" +targeclass);
+         Console.WriteLine("Weapon Two Hand:" +twohand);
          }
-      
-      
          
          
+       public void GeeGee()
+         {
          
-          
-
+         Console.WriteLine ("......START......");
+         int hp = 100;
+         int singleBlow = hp;
+         
+         Console.WriteLine ("You were attacked by an enemy for "+blow+" damage);
+         hp -= blow;
+         Console.Write.Line ("gg");
+         }
+         
+      public void LuckyBastard()
+         {
+         
+         Random r = new Random() ;
+         int maxHp = 100;
+         int current Hp = maxHp;
+         int blow;
+         
+         //attack 1
+         Console.WriteLine (...... 1st attack......);
+         blow = (int)(r.Next(1,(int) currentHp*0,98f)));
+         Console.WriteLine ("You were attacked by an enemy for "+blow+" damage");
+         currentHp -= blow;
+         Console.WriteLine ("You current life "+currentHp+"!");
+         Console.WriteLine("break");
+         
+         //attack 2
+         Console.WriteLine (...... 2nd attack......);
+         blow = (int)(r.Next(1,(int) currentHp*0,98f)));
+         Console.WriteLine ("You were attacked by an enemy for "+blow+" damage");
+         currentHp -= blow;
+         Console.WriteLine ("You current life "+currentHp+"!");
+         Console.WriteLine("break");
+         
+         //attack 3
+         Console.WriteLine (...... 3rd attack......);
+         blow = (int) currentHp - 1;
+         Console.WriteLine ("You were attacked by an enemy for "+blow+"!");
+         currentHp -= blow;
+         Console.WriteLine ("You continued with "+currentHp+" HP! Lucky Bastar!");
+         }
         
-        public void FightorFlight()
+           
+       public void Vegito()
+         {
+         
+         Random r = new Random();
+         
+         //player 1
+         int at1 = r.Next(0,101); 
+         int def1 = r.Next(0,101);
+         int inte1 = r.Next(0,101); 
+         
+         //player 2
+         int at2 = r.Next(0,101); 
+         int def2 = r.Next(0,101);
+         int inte2 = r.Next(0,101); 
+        
+        Console.WriteLine ("...... Fusion ......");
+        Console.WriteLine ("Attack:" +(at1 + at2)/2);
+        Console.WriteLine ("Defenses:" +(def1 + def2)/2);
+        Console.WriteLine ("Intellect:" +(inte1 + inte)/2);
+        }
+        
+       public void LetsGetPumped(){}
+         
+       public void Roll(){}
+          
+       public void LostInTheMap(){}
+       
+       public void Loot(){}
+       
+       
+      public void Iwillkickurass()
+         
+          Random r = new Random();
+
+            // player 1
+            int hp1 = r.Next(100, 201);
+            int atPower1 = r.Next(10, 51);
+
+            //player 2
+            int hp2 = r.Next(100, 201);
+            int atPower2 = r.Next(10, 51);
+
+            Console.WriteLine("...... Player 1 stats......");
+            Console.WriteLine("hpOne:" + hp1);
+            Console.WriteLine("attackPowerOne:" + atPower1);
+
+            Console.WriteLine("...... Player 2 stats......");
+            Console.WriteLine("hpTwo:" + hp2);
+            Console.WriteLine("attackPowerTwo:" + atPower2);
+            
+            if (hp1 >= hp2)
+            {
+                Console.WriteLine("Player 1 win!");
+            }
+            else {
+                Console.WriteLine("Player 2 win!");
+            }
+            
+             public void LeaderBoard(){}
+      
+       public void FightorFlight()
         {
         
         Random r = new Random();
@@ -84,3 +187,9 @@ namespace Algoritmia
             {
                 Console.WriteLine(" player 2 out the map");
             }
+            
+             public void closerncloser() {}
+             public void grinder(){}
+
+             
+             
