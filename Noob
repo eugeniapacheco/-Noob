@@ -2,10 +2,85 @@ namespace Algoritmia
 {
     public class ExerciciosAlgoritmia
     {
-
-
-        public void Noob
+    
+     public void LetTheGamesBegin()   
+     {
+     
+     Console.WriteLine("Game Started");
+     Console.WriteLine("Game Playing");
+     Console.WriteLine("Game Over");
+     }
+     
+     public void Noob()
         {
+        
         string name = "#Fiinz";
-        Console.WriteLine("You’re such a Noob "+ name +" !\n It's always good to have newbies around here!);
+        Console.WriteLine("You’re such a Noob "+ name +" !\n It's always good to have newbies around here!)
         }
+        
+      public void EasyPeasy()
+        {
+        
+        int lives = 3;
+        Console.WriteLine("You have " + lives +" lives, use them wisely");
+        {
+        
+      public void ForAzeroth()
+          {
+          
+         string nickname: Itachi;
+         int level = 12;
+         String race = ninja;
+         char gender = M;
+         String faction = Horde;
+         Strring class = Hunter;
+         
+         Console.WriteLine("Nickname:" +nickname);
+         Console.writeLine("Level:" +level);
+         Console.WriteLine("Race:" +race);
+         Console.WriteLine("Gender:" +gender);
+         Console.WriteLine("Faction:" +faction);
+         Console.WriteLine("Class:" +Hunter);
+         }
+         
+      public void () FrostMourne
+      {
+         String nickname: Blue;
+         String rarity = Common;
+         int damage = 500;
+         String description = Bright;
+         String target class = Hunter;
+         Strring class = Hunter;
+         
+         Console.WriteLine("Nickname:" +nickname);
+         Console.writeLine("Level:" +level);
+         Console.WriteLine("Race:" +race);
+         Console.WriteLine("Gender:" +gender);
+         Console.WriteLine("Faction:" +faction);
+         Console.WriteLine("Class:" +Hunter);
+         }
+      
+      
+         
+         
+         
+          
+
+        
+        public void FightorFlight()
+        {
+        
+        Random r = new Random();
+            int p1X = r.Next(0, 501);
+            int p1Y = r.Next(0, 501);
+
+            int p2X = r.Next(0, 501);
+            int p2Y = r.Next(0, 501);
+
+            double hip = Math.Sqrt(p1X * p2X + p1Y * p2Y);
+            Console.WriteLine(+hip);
+
+            if (hip < 20)
+            {
+                Console.WriteLine(" player 2 out the map");
+            }
