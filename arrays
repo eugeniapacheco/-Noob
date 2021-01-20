@@ -1,0 +1,6 @@
+ int[] a = new int[10];
+            for(int i = a.Length - 1; i >= 0; i--)
+            {
+             
+                Console.WriteLine(a[i] = i + 1);
+            }
