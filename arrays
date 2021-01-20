@@ -1,6 +1,49 @@
- int[] a = new int[10];
-            for(int i = a.Length - 1; i >= 0; i--)
+ namespace Algoritmia
+{
+    public class ExerciciosArrays
+    {
+    
+   public void Filli_n()  
+   {
+   //a
+    int[] a = new int[10];
+    for(int i = a.Length - 1; i >= 0; i--)
+    {
+    Console.WriteLine(a[i] = i + 1);
+    }
+    }
+    
+    //b
+    {
+     int[] b = new int[5];
+            for (int i = 0; i <= b.Length - 1; i++)
             {
-             
-                Console.WriteLine(a[i] = i + 1);
+                Console.WriteLine(b[i] = i + 1);
             }
+
+            for (int j =0; j <= b.Length - 1; j++)
+            {
+
+
+                Console.WriteLine(b[j] = (j+1) * 10);
+            }
+            }
+         //c
+         {
+         
+           
+    
+    public void Raid() 
+    {
+    Random r = new Random();
+            int[] jogadores = new int[20];
+            String[] classes = { "guerreiros", "guardiões", "magos", "cavaleiros", "reis", "burgueses" };
+            for (int i = 0; i < jogadores.Length; i++)
+            {
+                int cindex = r.Next(classes.Length);
+                jogadores[i] = cindex;
+                Console.WriteLine("Classe {0}", classes[cindex]);
+ }
+ }
+ 
+ public void 
